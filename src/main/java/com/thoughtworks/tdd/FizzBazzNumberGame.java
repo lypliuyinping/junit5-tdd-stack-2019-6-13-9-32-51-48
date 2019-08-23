@@ -17,7 +17,10 @@ public class FizzBazzNumberGame {
 			word = "Buzz";
 			return word;
 		}
-
+		if (number % 7 == 0) {
+			word = "Whizz";
+			return word;
+		}
 		// TODO Auto-generated method stub
 		return number + "";
 
